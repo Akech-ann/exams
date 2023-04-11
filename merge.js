@@ -1,18 +1,18 @@
 // Write a function that takes in a string and returns it when reversed
 // let food = “eating”
 
-// function x(food){
-//     return food.reverse()
-// }
-// let food = "eating"
-// let p = x(food)
-// console.log(p);
+function x(food){
+    return food.reverse()
+}
+let food = "eating"
+let p = x(food)
+console.log(p);
 
 // Write a function that takes in the following array and 
 // consoles the target if it is found else
 // null
-// let num = [2,8,0,23,5,45,76]
-// Target = 23
+let num = [2,8,0,23,5,45,76]
+Target = 23
 
 function w(num){
     if(num.length<=1){
